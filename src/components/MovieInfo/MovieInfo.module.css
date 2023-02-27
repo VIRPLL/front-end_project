@@ -1,0 +1,92 @@
+.movies_block {
+    display: flex;
+    height: 100vh;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px 100px 0 100px;
+}
+
+.card_container {
+    max-width: 200px;
+    height: 360px;
+    text-align: center;
+    margin: 0px 30px 30px 30px;
+    z-index: 0;
+    position: relative;
+}
+
+.poster_container {
+    position: relative;
+    max-width: 250px;
+    max-height: 375px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    overflow: hidden;
+    opacity: 1;
+}
+
+.ratings_block {
+    opacity: 0;
+    z-index: 2;
+}
+
+.pos {
+    position: absolute;
+    bottom: 150px;
+    left: 70px;
+    font-weight: bold;
+}
+
+.voted {
+    position: absolute;
+    bottom: 110px;
+    left: 40px;
+    font-size: 15px;
+}
+
+.img_text_block {
+    position: absolute;
+    width: 100px;
+    bottom: 80px;
+    left: 50px;
+    font-weight: bold;
+    opacity: 0;
+    z-index: 2;
+}
+
+.movie_title {
+    padding: 5px;
+    font-weight: bold;
+}
+
+.block {
+    margin: auto;
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+
+}
+
+.info_block {
+    height: 30px;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.star_block {
+    position: relative;
+    top: 75px;
+}
+
+.inf {
+    max-width: 500px;
+    padding: 30px;
+    font-weight: bold;
+}
+.elem {
+    margin-bottom: 10px;
+}

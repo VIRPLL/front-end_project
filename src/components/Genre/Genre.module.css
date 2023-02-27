@@ -1,0 +1,10 @@
+.li_element {
+    cursor: pointer;
+    width: 120px;
+    text-decoration: none;
+    color: black;
+}
+
+.li_element:hover {
+    color: white;
+}

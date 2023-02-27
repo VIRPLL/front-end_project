@@ -1,0 +1,23 @@
+.movies_block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px 100px 0 100px;
+}
+
+.button_block {
+    margin: auto;
+    width: 350px;
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+.btn_prev {
+    cursor: pointer;
+    rotate: 180deg;
+}

@@ -1,0 +1,11 @@
+.badgeBlock{
+    margin-bottom: 10px;
+    height: 60px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.item:hover {
+    cursor: pointer;
+}

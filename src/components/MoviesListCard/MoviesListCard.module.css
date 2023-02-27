@@ -1,0 +1,85 @@
+.card_container {
+    text-decoration: none;
+    max-width: 200px;
+    height: 360px;
+    text-align: center;
+    margin: 0px 30px 30px 30px;
+    color: black;
+    z-index: 0;
+    position: relative;
+}
+
+.card_container:hover {
+    cursor: pointer;
+}
+
+
+.poster_container {
+    position: relative;
+    max-width: 200px;
+    max-height: 300px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    background-color: #5c5f64;
+    overflow: hidden;
+    opacity: 1;
+}
+
+.poster {
+    opacity: 1;
+}
+
+.card_container:hover .poster{
+    transition: opacity 250ms linear;
+    opacity: 0.1;
+}
+
+.movie_title {
+    padding: 5px;
+    font-weight: bold;
+}
+
+.img_text_block {
+    position: absolute;
+    width: 100px;
+    bottom: 80px;
+    left: 50px;
+    font-weight: bold;
+    opacity: 0;
+    z-index: 2;
+}
+
+.ratings_block {
+    opacity: 0;
+    z-index: 2;
+}
+
+.card_container:hover .img_text_block{
+    transition: opacity 200ms linear;
+    opacity: 1;
+}
+
+.card_container:hover .ratings_block{
+    transition: opacity 200ms linear;
+    opacity: 1;
+}
+
+.pos {
+    position: absolute;
+    bottom: 150px;
+    left: 70px;
+    font-weight: bold;
+}
+
+.voted {
+    position: absolute;
+    bottom: 110px;
+    left: 40px;
+    font-size: 15px;
+}
+
+.link_block {
+    width: 200px;
+    height: 360px;
+    background-color: transparent;
+}

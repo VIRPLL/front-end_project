@@ -1,0 +1,139 @@
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1519px;
+    height: 40px;
+    /*position: fixed;*/
+    padding: 10px;
+    top: 0;
+    border-bottom: 2px solid black;
+    border-radius: 0 0 10px 10px;
+    z-index: 1;
+}
+
+h2 {
+    position: absolute;
+    display: inline;
+    padding-left: 10px;
+    top: 0;
+}
+
+.logo {
+    margin: auto;
+    position: relative;
+}
+
+.block {
+    width: 200px;
+    margin-left: 150px;
+    text-decoration: none;
+    color: black;
+}
+
+.block:hover {
+    cursor: pointer;
+}
+
+.btn_theme {
+    position: absolute;
+    right: 230px;
+    top: 15px;
+    transition: 300ms;
+}
+
+.btn_theme:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.burger_menu {
+    position: absolute;
+    top: 15px;
+    right: 180px;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.burger_menu:hover {
+    transform: scale(1.1);
+}
+
+.side_element {
+    display: block;
+    width: 70px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.side_element_genres {
+    width: 70px;
+    text-decoration: none;
+    color: black;
+}
+
+.side_element:hover {
+    color: white;
+}
+
+.close {
+    position: absolute;
+    top: 5px;
+    right: 30px;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.close:hover {
+    transform: scale(1.1);
+}
+
+.side {
+    display: none;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 210px;
+    font-weight: bold;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    border-radius: 0 0 0 15px;
+    padding: 15px;
+    height: 600px;
+    z-index: 5;
+    background-color: #616772;
+}
+
+/*.find_block {*/
+/*    display: flex;*/
+/*    position: absolute;*/
+/*    width: 250px;*/
+/*    top: 20px;*/
+/*    right: 635px;*/
+/*}*/
+
+/*.input_style {*/
+/*    width: 200px;*/
+/*    height: 20px;*/
+/*    border-radius: 10px;*/
+/*    padding: 3px;*/
+/*}*/
+
+/*.search_btn {*/
+/*    position: absolute;*/
+/*    background-color: transparent;*/
+/*    border: none;*/
+/*    transition: 200ms linear;*/
+/*    top: 2px;*/
+/*    right: 5px;*/
+/*}*/
+
+/*.search_btn:hover {*/
+/*    transform: scale(1.1);*/
+/*    cursor: pointer;*/
+/*}*/

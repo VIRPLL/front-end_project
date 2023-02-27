@@ -1,0 +1,16 @@
+.button_block {
+    margin: auto;
+    width: 350px;
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+.btn_prev {
+    cursor: pointer;
+    rotate: 180deg;
+}

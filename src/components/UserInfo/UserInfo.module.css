@@ -1,0 +1,22 @@
+.user_block {
+    position: absolute;
+    width: 140px;
+    height: 35px;
+    top: 15px;
+    right: 295px;
+    display: flex;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.user_block:hover {
+    cursor: pointer;
+}
+
+.user_text {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-weight: bold;
+}
